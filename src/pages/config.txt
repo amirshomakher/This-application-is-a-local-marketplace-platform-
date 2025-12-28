@@ -1,0 +1,50 @@
+src/
+├── assets/
+│   └── images/
+├── components/
+│   ├── Auth/
+│   │   ├── Login.js
+│   │   └── Register.js
+│   ├── Layout/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── Location/
+│   │   ├── CitySelector.js
+│   │   └── CountrySelector.js
+│   ├── Profile/
+│   │   ├── Profile.js
+│   │   ├── EditProfile.js
+│   │   ├── MyAds.js
+│   │   ├── SavedAds.js
+│   │   ├── Payments.js
+│   │   └── Messages.js
+│   ├── Ads/
+│   │   ├── AdCard.js
+│   │   ├── AdList.js
+│   │   ├── AdCreate.js
+│   │   ├── AdDetail.js
+│   │   └── AdFilters.js
+│   └── Common/
+│       ├── Loading.js
+│       └── Error.js
+├── pages/
+│   ├── Home.js
+│   ├── Dashboard.js
+│   ├── Categories.js
+│   └── Search.js
+├── services/
+│   ├── firebase.js
+│   ├── supabase.js
+│   └── api.js
+├── store/
+│   ├── actions/
+│   ├── reducers/
+│   └── store.js
+├── styles/
+│   ├── theme.js
+│   └── global.css
+├── utils/
+│   ├── constants.js
+│   └── helpers.js
+├── App.js
+└── index.js
